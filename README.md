@@ -718,7 +718,7 @@ gt                  # 下一个标签页
 gT                  # 上一个标签页
 ```
 
-## Vim书签
+## 书签
 
 ```bash
 :marks              # 显示所有书签
@@ -734,7 +734,7 @@ ma                  # 保存当前位置到书签 a ，书签名小写字母为�
 ```
 
 
-## 帮助信息
+## [帮助信息](https://yianwillis.github.io/vimcdoc/doc/quickref.html)
 
 ```bash
 :help <command>     # 显示相关命令的帮助，也可以就输入 :help 而不跟命令，退出帮助需要输入 :q
@@ -972,7 +972,7 @@ Ctrl+r 寄存器名称        # 插入模式下（无需输入寄存器引用符
 | 表达式寄存器       | "=                 | 所有寄存器里最特殊的一个，用于计算表达式。输入完该寄存器应用后，会在命令行里提示“=”，按需输入表达式，结果将会显示到光标处 |
 | 其他寄存器         | -                  | -                                                            |
 
-## Vim配置文件
+## [配置文件](https://github.com/amix/vimrc)
 
 > 注意：Vim 配置文件有全局和用户两种版本，且用户配置文件优先于全局系统配置文件。
 
@@ -1021,7 +1021,7 @@ set all             # 列出所有选项设置情况
 ```
 
 
-## Vim常用插件
+## [常用插件](https://vimawesome.com/?q=cat%3Alanguage)
 
 **[vim-commentary](https://github.com/tpope/vim-commentary)**：Vim 批量注释工具，可以注释多行和去除多行注释。
 
@@ -1095,8 +1095,9 @@ A                   # 全屏显示 NERDTree，或者关闭全屏
 - 脚本精通：http://learnvimscriptthehardway.stevelosh.com/
 - 十六年使用经验：http://zzapper.co.uk/vimtips.html
 - 配色方案：http://vimcolors.com/
+- 插件开发指南https://github.com/wsdjeg/vim-plugin-dev-guide
 
-## Vim 使用建议
+## 使用建议
 
 - 永远不要用 Ctrl+C 代替 <Esc> 完全不同的含义，容易错误中断运行的后台脚本。
 - 很多人使用 Ctrl+[ 代替 <Esc>，左手小指 Ctrl，右手小指 [ 熟练后很方便。
@@ -1123,11 +1124,11 @@ A                   # 全屏显示 NERDTree，或者关闭全屏
 
 ## 相关书籍
 
-[Vim 实用技巧（英文版）](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought-ebook-dp-B018T6ZVPK/dp/B018T6ZVPK/ref=mt_other?_encoding=UTF8&me=&qid=) |  [Vim 实用技巧（中文版）](https://book.douban.com/subject/26967597/)
+[Vim 实用技巧（英文版）](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought-ebook-dp-B018T6ZVPK/dp/B018T6ZVPK/ref=mt_other?_encoding=UTF8&me=&qid=) |  [Vim 实用技巧（中文版）](https://book.douban.com/subject/26967597/) | [VimL 语言编程指北路](https://github.com/lymslive/vimllearn)
 
-## Vim键盘图
+## 键盘图
 
-![vim 命令键盘图](/Users/zhengdongqi/N.Nick/vim/pic/vim-commands_CN.png)
+![vim 命令键盘图](./pic/vim-commands_CN.png)
 
 ## 参考
 
